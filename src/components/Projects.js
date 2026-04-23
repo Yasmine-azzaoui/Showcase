@@ -40,7 +40,7 @@ const projects = [
       { label: 'Frontend', url: 'https://github.com/SheCodesAus/debug-a-lotl-frontend' },
       { label: 'Backend', url: 'https://github.com/SheCodesAus/debug-a-lotl-backend' }
     ],
-    liveDemoLink: 'https://your-bookclub-demo.netlify.app',
+    liveDemoLink: 'https://openbookapp.netlify.app/',
     iframeDemo: null,
   },
 ];
