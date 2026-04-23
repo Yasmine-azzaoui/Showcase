@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Showcase/static/css/main.3123bff9.css",
+    "main.js": "/Showcase/static/js/main.f95592c7.js",
+    "static/media/251025 Shecodes Portraits (323 of 331).jpeg": "/Showcase/static/media/251025 Shecodes Portraits (323 of 331).066b62de8de3472907b5.jpeg",
+    "static/media/Resume_Yasmine_Azzaoui.pdf": "/Showcase/static/media/Resume_Yasmine_Azzaoui.67975ba9a2b02b1ce1b5.pdf",
+    "static/media/IMG_0729.jpg": "/Showcase/static/media/IMG_0729.c58c40484a6057ec6a6e.jpg",
+    "index.html": "/Showcase/index.html",
+    "main.3123bff9.css.map": "/Showcase/static/css/main.3123bff9.css.map",
+    "main.f95592c7.js.map": "/Showcase/static/js/main.f95592c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3123bff9.css",
+    "static/js/main.f95592c7.js"
+  ]
+}

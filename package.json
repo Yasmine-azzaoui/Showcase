@@ -2,6 +2,7 @@
   "name": "yasmine-azzaoui-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yasmine-azzaoui.github.io/Showcase/",
   "engines": {
     "node": ">=21.0.0",
     "npm": ">=10.0.0"
