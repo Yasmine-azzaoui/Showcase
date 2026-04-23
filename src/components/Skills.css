@@ -1,0 +1,80 @@
+/* =========================================================
+   Skills Section
+   ========================================================= */
+.skills-wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* ── Category card ──────────────────────────────────────── */
+.skills-category {
+  flex: 1;
+  min-width: 280px;
+  background-color: var(--color-secondary);
+  border: 1px solid rgba(163, 177, 138, 0.4);
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 4px 16px var(--color-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.skills-category:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 36px rgba(61, 90, 73, 0.15);
+  border-color: var(--color-accent);
+}
+
+.skills-category__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skills-category__icon {
+  font-size: 1.35rem;
+  flex-shrink: 0;
+}
+
+/* ── Skill pills ────────────────────────────────────────── */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-item {
+  background-color: var(--color-accent);
+  color: var(--color-text-dark);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  letter-spacing: 0.2px;
+  cursor: default;
+  transition: background-color 0.25s ease, transform 0.25s ease, color 0.25s ease;
+}
+
+.skill-item:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  transform: translateY(-2px) scale(1.04);
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+@media (max-width: 640px) {
+  .skills-wrapper {
+    flex-direction: column;
+  }
+
+  .skills-category {
+    min-width: unset;
+    padding: 1.5rem;
+  }
+}
